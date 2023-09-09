@@ -8,11 +8,12 @@ import {
   Subscribe,
   SuperQuality,
 } from "./sections";
+import Nav from "./Components/Nav";
 // parenthesis are used when the component does not return anything else asides jsx(s)
 
 const App = () => (
   <main className="relative">
-    {/* <Nav /> */}
+    <Nav />
     <section className="xl:padding-1 wide:padding-r padding-b">
       <Hero />
     </section>
