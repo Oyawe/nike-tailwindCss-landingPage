@@ -79,12 +79,14 @@ export const services = [
 
 export const reviews = [
     {
+        id: 1,
         imgURL: customer1,
         customerName: 'Morich Brown',
         rating: 4.5,
         feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
     },
     {
+        id: 2,
         imgURL: customer2,
         customerName: 'Lota Mongeskar',
         rating: 4.5,
