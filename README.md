@@ -2,7 +2,7 @@
 
 ![nike-project-1.png](https://i.postimg.cc/Fz7gX3Vj/nike-project-1.png)
 
-## ![check out the finished project](https://nike-landingg-page.netlify.app/)
+## [check out the finished project](https://nike-landingg-page.netlify.app/)
 
 ## Description
 
