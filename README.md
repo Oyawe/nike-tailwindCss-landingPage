@@ -1,8 +1,23 @@
-# React + Vite
+# Nike-landing-page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![nike-project-1.png](https://i.postimg.cc/Fz7gX3Vj/nike-project-1.png)]
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This was implemented using ``REACT Js` and `Tailwind CSS`.<br>The website is mobile responsive.<br>`TailWind Css` is one of the best UI libraries out there. I enjoy using it and had fun building this project.<br>The file structure of this project is standard and very easy to comprehend.<br>The Big Shoe image is dynamic btw.
+
+### Setup:
+
+-- install node modules
+
+```sh
+npm install
+```
+
+-- run dev server
+
+```sh
+npm run dev
+```
+
+-The project loads up in your browser🌟
