@@ -7,6 +7,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+Screen Recording 2023-09-10 at 11.23.05 PM.mov
+
 node_modules
 dist
 dist-ssr
