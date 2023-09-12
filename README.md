@@ -1,6 +1,6 @@
 # Nike-landing-page
 
-[![nike-project-1.png](https://i.postimg.cc/Fz7gX3Vj/nike-project-1.png)]
+![nike-project-1.png](https://i.postimg.cc/Fz7gX3Vj/nike-project-1.png)
 
 ## Description
 
