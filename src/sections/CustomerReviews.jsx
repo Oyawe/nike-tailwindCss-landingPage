@@ -5,7 +5,7 @@ const CustomerReviews = () => {
   return (
     <section className="max-container">
       <h3 className=" font-palanquin text-center text-4xl font-bold">
-        What Our <span className="text-coral-red">Customers</span> Say?
+        What Our <span className="text-[#B8C5F9]">Customers</span> Say?
       </h3>
       <p className="info-text m-auto mt-4 max-w-lg text-center">
         Hear genuine stories from our satisfied customers about their
@@ -16,10 +16,11 @@ const CustomerReviews = () => {
           return (
             <ReviewCard
               key={review.id}
-              imgURL={review.imgURL}
-              customerName={review.customerName}
-              rating={review.rating}
-              feedback={review.feedback}
+              // imgURL={review.imgURL}
+              // customerName={review.customerName}
+              // rating={review.rating}
+              // feedback={review.feedback}
+              {...review}
             />
           );
         })}

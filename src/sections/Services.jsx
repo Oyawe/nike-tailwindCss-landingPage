@@ -8,9 +8,10 @@ const Services = () => {
         return (
           <ServiceCard
             key={service.label}
-            imageURL={service.imgURL}
-            label={service.label}
-            subtext={service.subtext}
+            // imgURL={service.imgURL}
+            // label={service.label}
+            // subtext={service.subtext}
+            {...service}
           />
         );
       })}

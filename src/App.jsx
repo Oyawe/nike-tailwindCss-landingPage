@@ -12,7 +12,7 @@ import Nav from "./Components/Nav";
 // parenthesis are used when the component does not return anything else asides jsx(s)
 
 const App = () => (
-  <main className="relative">
+  <main className="relative bg-[#faf5f5]">
     <Nav />
     <section className="xl:padding-l wide:padding-r padding-b">
       <Hero />
