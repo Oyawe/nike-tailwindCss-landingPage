@@ -10,31 +10,31 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="w-full flex  flex-col justify-center min-h-screen gap-7 max-container xl:flex-row"
+      className="flex flex-col justify-center w-full min-h-screen gap-7 max-container xl:flex-row"
     >
       {/* left side of the hero section */}
-      <div className="relative xl:2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
+      <div className="relative flex flex-col items-start justify-center w-full xl:2/5 max-xl:padding-x pt-28">
         <p className="text-xl font-montserrat text-[#8aa4ed]">
           Our Summer Collection
         </p>
         <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
-          <span className="xl:whitespace-nowrap relative z-10 pr-10">
+          <span className="relative z-10 pr-10 xl:whitespace-nowrap">
             The New Arrival
           </span>
           <br />
           <span className="text-[#B8C5F9] inline-block mt-3">Nike</span> Shoes
         </h1>
-        <p className=" font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm">
+        <p className="mt-6 text-lg leading-8 font-montserrat text-slate-gray mb-14 sm:max-w-sm">
           Discover Stylish Nike arrivals, quality comfort, and innovation for
           your active life.
         </p>
         <Button label="Shop Now" iconURL={arrowRight} />
 
         {/* stats on the left side of the hero section */}
-        <div className="flex justify-start items-start flex-wrapxs mt-20 gap-16 max-sm:gap-6">
+        <div className="flex items-start justify-start gap-16 mt-20 flex-wrapxs max-sm:gap-6">
           {statistics.map((stat) => (
             <div key={stat.label}>
-              <p className="text-4xl font-palanquin font-bold">{stat.value}</p>
+              <p className="text-4xl font-bold font-palanquin">{stat.value}</p>
               <p className="leading-7 font-montserrat text-slate-gray">
                 {stat.label}
               </p>
@@ -45,13 +45,13 @@ const Hero = () => {
 
       {/* right side of the hero section  */}
       {/* BigShoeImg */}
-      <div className="relative flex justify-center items-center w-full xl:h-screen max-xl:py-10 bg-primary bg-hero bg-cover bg-center">
+      <div className="relative flex items-center justify-center w-full bg-center bg-cover xl:h-screen max-xl:py-10 bg-primary bg-hero">
         <img
           src={bigShoeImg}
           alt="shoe collection"
           width={500}
           height={500}
-          className="object-contain relative z-10"
+          className="relative z-10 object-contain"
         />
 
         {/*Shoes*/}

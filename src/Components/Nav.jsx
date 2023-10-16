@@ -4,14 +4,14 @@ import { navLinks } from "../Constants/index";
 
 const Nav = () => {
   return (
-    <header className="padding-x py-8 absolute z-10 w-full">
-      <nav className=" flex justify-between items-center max-container">
+    <header className="absolute z-10 w-full py-8 padding-x">
+      <nav className="flex items-center justify-between max-container">
         {/* nav logo */}
         <a href="/">
           <img src={headerLogo} alt="Logo" width={130} height={29} />
         </a>
         {/* nav links */}
-        <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
+        <ul className="flex items-center justify-center flex-1 gap-16 max-lg:hidden">
           {navLinks.map((item) => {
             return (
               <li key={item.label}>
